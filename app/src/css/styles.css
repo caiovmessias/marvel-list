@@ -1,0 +1,52 @@
+#main {
+  margin: 0 auto;
+  width: 800px;
+}
+
+ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+li {
+  font-style: normal;
+  text-decoration: solid;
+  list-style: none;
+  padding: 10px;
+  margin-left: 0px;
+  border-bottom: 1px solid #f3f3f3;
+  width: 800px;
+  transition: 0.3s;
+}
+
+li:hover {
+  background-color: #d3d3d3;
+  cursor: pointer;
+  padding: 15px;
+}
+
+input {
+  padding: 10px;
+  margin-bottom: 15px;
+  width: 800px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.description {
+  font-size: 1.3rem;
+}
+
+.descriptionDiv {
+  width: 850px;
+  text-align: justify;
+}
+
+button {
+  float: right;
+  background: #ec5a5a;
+  color: white;
+  border: 1px solid #BD1414;
+}
